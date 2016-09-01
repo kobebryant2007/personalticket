@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="52953033">
+    <data-source source="LOCAL" name="test" uuid="73e2d71f-141c-439d-9bc1-213d1daa50c5">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//10.10.176.79:1521/acsme</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Desktop/测试/ojdbc6-11.2.0.4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="shengchan" uuid="67d66426-eb0d-4b71-8632-23c63895a31b">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//10.9.243.25/acsme</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Desktop/测试/ojdbc6-11.2.0.4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
