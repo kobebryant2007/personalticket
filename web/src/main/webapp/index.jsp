@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>因私日常问题处理</title>
+    <title>spring boot 学习</title>
 </head>
 <body>
 
