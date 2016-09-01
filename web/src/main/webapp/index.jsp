@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>spring boot 学习</title>
+    <title>spring boot学习</title>
 </head>
 <body>
-
+发布一个接口
+<select></select>
+<input type="text" name="title"/>
 </body>
 </html>
