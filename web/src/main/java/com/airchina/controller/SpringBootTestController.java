@@ -1,22 +1,21 @@
 package com.airchina.controller;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.boot.*;
+import org.springframework.boot.autoconfigure.*;
+import org.springframework.stereotype.*;
+import org.springframework.web.bind.annotation.*;
 
-/**
- * Created by n on 2016/9/1.
- */
-
-@RestController
-@EnableConfigurationProperties
+@Controller
+@EnableAutoConfiguration
 public class SpringBootTestController {
-    @RequestMapping("/")
-    String home(){
-        return "hello world";
+
+    @RequestMapping("/web")
+    @ResponseBody
+    String home() {
+        return "Hello World!";
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) throws Exception {
         SpringApplication.run(SpringBootTestController.class, args);
     }
 }
