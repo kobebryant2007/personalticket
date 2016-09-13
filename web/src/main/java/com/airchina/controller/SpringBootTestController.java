@@ -6,10 +6,7 @@ import org.springframework.boot.autoconfigure.*;
 import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @RestController
 @EnableAutoConfiguration
@@ -25,8 +22,9 @@ public class SpringBootTestController {
     @ResponseBody
     Map next(@PathVariable("id") Long id){
         System.out.println(id);
-        Map<String,Long> list = new HashMap<String,Long>();
+        Map<String,Long> list = new LinkedHashMap<String, Long>();
         list.put("hello",id);
+        list.put("sss", id + 1);
         return list;
     }
     public static void main(String[] args) throws Exception {
